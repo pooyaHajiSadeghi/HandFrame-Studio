@@ -92,11 +92,6 @@ Each recording can be up to **five minutes** long. Save drawings and recordings 
 - Internet access if Setup needs to install WebView2.
 
 
-Application logs are stored at:
-
-```text
-%LOCALAPPDATA%\HandFrame\logs\handframe.log
-```
 
 For help, [open an issue](https://github.com/pooyaHajiSadeghi/HandFrame-Studio/issues) with your Windows version, the affected tool and the error message. Review logs before sharing them and remove any personal information.
 
