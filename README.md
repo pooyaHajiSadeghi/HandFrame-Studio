@@ -82,20 +82,6 @@ After installation, open HandFrame Studio from the desktop shortcut, if selected
 
 Each recording can be up to **five minutes** long. Save drawings and recordings before leaving the active tool.
 
-## Keyboard shortcuts
-
-Shortcuts apply while the relevant tool is active and the application has focus, unless noted otherwise.
-
-| Key | Action |
-| --- | --- |
-| **F8** | Enable/disable mouse control while Mouse Control is active; also works outside the application window. |
-| **Space** | Pause/resume Puzzle, Drawing or Music. |
-| **Esc** | Return to the home page. |
-| **C** | Start a new puzzle. |
-| **Ctrl+S** | Save the drawing. |
-| **Ctrl+Z** | Undo a drawing action. |
-| **1–8** | Play piano notes in Music. |
-| **A / S / D / F** | Play drum pads in Music. |
 
 ## System requirements
 
