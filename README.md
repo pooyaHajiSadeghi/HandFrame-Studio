@@ -12,7 +12,7 @@ Four short demonstrations recorded from the Windows application.
 
 Move, click, drag and scroll using hand gestures. Press **F8** to enable or disable pointer control.
 
-![HandFrame Studio — hand gesture mouse control](assets/demos/mouse.gif)
+![Mouse Control](assets/demos/mouse.gif)
 
 ### Hand Drawing
 
