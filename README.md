@@ -4,6 +4,34 @@
 
 A Windows desktop application for hand-controlled photo puzzles, mouse control, drawing and music.
 
+## See HandFrame Studio in action
+
+Four short demonstrations recorded from the Windows application.
+
+### Mouse Control
+
+Move, click, drag and scroll using hand gestures. Press **F8** to enable or disable pointer control.
+
+![HandFrame Studio — hand gesture mouse control](assets/demos/mouse.gif)
+
+### Hand Drawing
+
+Draw with your finger, select colors and save your artwork as a PNG image.
+
+![HandFrame Studio — drawing with hand tracking](assets/demos/drawing.gif)
+
+### Hand Music
+
+Play piano and drums with hand gestures, then record and export your performance as WAV audio.
+
+![HandFrame Studio — gesture-controlled music](assets/demos/music.gif)
+
+### Photo Puzzle
+
+Grab and move puzzle tiles with a pinch gesture. Choose from 3×3, 4×4 and 5×5 grids.
+
+![HandFrame Studio — pinch and drag photo puzzle](assets/demos/puzzle.gif)
+
 ## Download for Windows
 
 ### [Download HandFrame Studio v1.0.0 — Windows Installer](https://github.com/pooyaHajiSadeghi/HandFrame-Studio/releases/download/v1.0.0/HandFrameStudio_Setup_1.0.0.exe)
