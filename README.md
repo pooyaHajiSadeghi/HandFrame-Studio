@@ -2,172 +2,92 @@
 
 **Control, create and play with hand gestures.**
 
-A Windows desktop application for hand-controlled photo puzzles, mouse control, drawing and music.
+HandFrame Studio is a Windows desktop application that turns your webcam into a hand-tracking interface for mouse control, drawing, music and photo puzzles.
 
-## See HandFrame Studio in action
+## Video Demo
 
-Four short demonstrations recorded from the Windows application.
+[▶ Watch the HandFrame Studio demo](https://github.com/pooyaHajiSadeghi/HandFrame-Studio/blob/main/HandFrameStudio_Promo.mp4)
 
-### Mouse Control
-
-Move, click, drag and scroll using hand gestures. Press **F8** to enable or disable pointer control.
-
-![Mouse Control](assets/demos/mouse.webp)
-
-### Hand Drawing
-
-Draw with your finger, select colors and save your artwork as a PNG image.
-
-![HandFrame Studio — drawing with hand tracking](assets/demos/drawing.gif)
-
-### Hand Music
-
-Play piano and drums with hand gestures, then record and export your performance as WAV audio.
-
-![HandFrame Studio — gesture-controlled music](assets/demos/music.gif)
-
-### Photo Puzzle
-
-Grab and move puzzle tiles with a pinch gesture. Choose from 3×3, 4×4 and 5×5 grids.
-
-![HandFrame Studio — pinch and drag photo puzzle](assets/demos/puzzle.gif)
+Open the link above to view the demo on GitHub. If playback is unavailable on the file page, download the MP4 and open it locally.
 
 ## Download for Windows
 
-### [Download HandFrame Studio v1.0.0 — Windows Installer](https://github.com/pooyaHajiSadeghi/HandFrame-Studio/releases/download/v1.0.0/HandFrameStudio_Setup_1.0.0.exe)
+[**Download HandFrame Studio Setup v1.0.0 (.exe)**](https://github.com/pooyaHajiSadeghi/HandFrame-Studio/releases/download/v1.0.0/HandFrameStudio_Setup_1.0.0.exe)
 
-**Windows x64 · Version 1.0.0 · Approximately 148 MiB · No Python installation required**
+[Browse releases](https://github.com/pooyaHajiSadeghi/HandFrame-Studio/releases)
 
-[View release details](https://github.com/pooyaHajiSadeghi/HandFrame-Studio/releases/tag/v1.0.0) · [All releases](https://github.com/pooyaHajiSadeghi/HandFrame-Studio/releases)
+Use the installer from the release assets to install the application. The repository ZIP is not the Windows installer.
 
-Download the **.exe installer** using the link above or from the release page's **Assets** section. GitHub's **Code → Download ZIP** and automatically generated **Source code** archives are not the Windows installer.
+## Installation
 
-This repository provides the Windows installer and documentation. Project source code is not included.
+1. Download `HandFrameStudio_Setup_1.0.0.exe` using the link above.
+2. Run the installer and follow the setup wizard.
+3. Choose an installation folder and complete installation.
+4. Launch HandFrame Studio.
+5. Allow camera access when requested and select a tool from the sidebar.
 
-**Documentation:** [User guide](README.md) · [Architecture, algorithms and libraries](README_TECHNICAL.md)
-
-## Install and launch
-
-1. Download **HandFrameStudio_Setup_1.0.0.exe**.
-2. Close any running copy of HandFrame Studio, then open the downloaded installer.
-3. Choose the installer language.
-4. Choose whether to create a desktop shortcut and select your installation folder with **Browse**.
-5. Click **Install** and follow the progress and details panel.
-6. If Microsoft Edge WebView2 Runtime is missing, Setup downloads and installs it from Microsoft. Internet access is needed for this step.
-7. On the final page, leave **Launch HandFrame Studio** selected and click **Finish**.
-
-After installation, open HandFrame Studio from the desktop shortcut, if selected, or the Windows Start menu.
-
-**You do not need Python, pip, VS Code or the project source files to use the application.** Application files are included in Setup.
-
-## Before your first session
-
-- Connect your webcam and close other applications that are using it.
-- Allow camera access for desktop applications in Windows privacy settings.
-- Open **Settings** in HandFrame Studio to select the correct camera index and audio output device.
-- Choose **Persian** or **English** as the application language.
-- Keep your hands inside the camera view, with enough light and a clear background.
-
-## What you can do
-
-| Tool | Features |
-| --- | --- |
-| Photo Puzzle | Capture an area with two hands and solve a shuffled 3×3, 4×4 or 5×5 puzzle using pointing, pinching and dragging. |
-| Mouse Control | Move the pointer, click, drag and scroll with hand gestures. Use **F8** to enable or disable control. |
-| Drawing | Draw with your finger, choose colors, change brush size, erase, undo and save PNG images. |
-| Music | Play piano and drums, use Free Play or Groove mode, adjust volume and tempo, and record WAV audio. |
-| Dashboard | Switch tools, change device settings and use the Persian/English interface. |
-
-## How to use the tools
-
-### Photo Puzzle
-
-1. Select **Photo Puzzle** from the dashboard.
-2. Show both hands to the camera. Pinch your thumb and index finger on each hand and move your hands apart to create a frame.
-3. Open your fingers to freeze the frame. After a five-second countdown, the captured area becomes a shuffled puzzle.
-4. Point at a tile, pinch to grab it, move it to another position and open your fingers to drop it.
-5. Use the difficulty selector for **3×3**, **4×4** or **5×5** grids. Changing difficulty starts a new puzzle.
+## Features
 
 ### Mouse Control
 
-1. Select **Mouse Control**.
-2. Read the on-screen gesture guide before enabling pointer control.
-3. Press **F8**, or use the on-screen toggle, to enable control.
-4. Use the indicated gestures to move, click, drag and scroll.
-5. Press **F8** whenever you want to stop gesture-based mouse control.
+Move the Windows pointer and perform mouse actions using hand gestures.
 
-### Drawing
+- Index finger: move the pointer.
+- Index and middle fingers raised in a V sign: left-click.
+- Thumb and middle finger gesture: right-click.
+- Hold a thumb-and-index pinch: drag.
+- Index, middle and ring fingers raised: scroll.
+- Press **F8** to enable or disable mouse control.
 
-1. Select **Drawing**.
-2. Raise your index finger and fold the other fingers to draw.
-3. Choose a color and brush size; use the eraser or **Undo** when needed.
-4. Click **Save** to choose a location and export your drawing as a **PNG**.
+Follow the on-screen gesture guide. Mouse control turns off when you leave its page.
 
-### Music
+### Hand Drawing
 
-1. Select **Music** and choose **Free Play** or **Groove**.
-2. Use the on-screen hand-gesture guide, instrument buttons or keyboard shortcuts to play.
-3. Adjust the instrument preset, volume and tempo.
-4. To save a performance, start recording, stop recording, then choose **Save** to export a **WAV** file.
+Draw with your index finger, choose colors, adjust brush size, switch between brush and eraser, undo changes and save your artwork as a PNG image.
 
-Each recording can be up to **five minutes** long. Save drawings and recordings before leaving the active tool.
+### Hand Music
 
-## Keyboard shortcuts
+Use tracked hand gestures to play musical notes and drum sounds. Choose an instrument or mode, adjust volume and tempo, and record and save audio as a WAV file.
 
-Shortcuts apply while the relevant tool is active and the application has focus, unless noted otherwise.
+### Photo Puzzle
 
-| Key | Action |
-| --- | --- |
-| **F8** | Enable/disable mouse control while Mouse Control is active; also works outside the application window. |
-| **Space** | Pause/resume Puzzle, Drawing or Music. |
-| **Esc** | Return to the home page. |
-| **C** | Start a new puzzle. |
-| **Ctrl+S** | Save the drawing. |
-| **Ctrl+Z** | Undo a drawing action. |
-| **1–8** | Play piano notes in Music. |
-| **A / S / D / F** | Play drum pads in Music. |
+Frame a photo with your hands and solve a shuffled puzzle. Point to highlight a tile, pinch to grab it, move your hand to drag it, and release to drop it. The interface shows progress, moves, time and score.
 
-## System requirements
+## Getting Started
 
-- **64-bit Windows**; Windows 11 is the primary tested environment.
-- A webcam for hand tracking.
-- An audio output device for music.
-- Microsoft Edge WebView2 Runtime for the dashboard.
-- Internet access if Setup needs to install WebView2.
+- Use a working webcam with Windows camera access enabled.
+- Keep your hands inside the camera view and use even lighting.
+- Leave enough space between your hands and the camera for fingers to be visible.
+- Start with one tool and follow its on-screen instructions.
+- Use **F8** to pause pointer control when needed.
+
+Only one tool is active at a time.
 
 ## Troubleshooting
 
-| Problem | What to try |
-| --- | --- |
-| Camera unavailable or no picture | Close other camera apps, check Windows camera permissions and select the correct camera index in Settings. |
-| Hand tracking is unstable | Improve lighting, keep your hands fully visible and avoid a busy background. |
-| No sound | Check Windows volume and choose the correct audio output device in Settings. |
-| WebView2 installation fails | Check your internet connection, or install the [Evergreen Runtime from Microsoft](https://developer.microsoft.com/microsoft-edge/webview2/) and rerun Setup. |
-| Unexpected mouse actions | Press **F8** to disable gesture-based mouse control. |
-| Setup asks you to close HandFrame Studio | Exit the running application, then retry installation. |
+**The camera does not open**  
+Check Windows camera privacy settings, close other applications using the webcam and restart HandFrame Studio.
 
-Application logs are stored at:
+**Hand tracking is unstable**  
+Improve lighting, keep your hands visible and avoid fast movements or a cluttered background.
 
-```text
-%LOCALAPPDATA%\HandFrame\logs\handframe.log
-```
+**Pointer control is inactive**  
+Open Mouse Control and press **F8**. Check the on-screen status and gesture guide.
 
-For help, [open an issue](https://github.com/pooyaHajiSadeghi/HandFrame-Studio/issues) with your Windows version, the affected tool and the error message. Review logs before sharing them and remove any personal information.
+**Music is silent**  
+Check Windows output volume, the selected audio device and the application's volume setting.
 
-## Updates and uninstall
+## Technical Overview
 
-Download future versions from the [Releases page](https://github.com/pooyaHajiSadeghi/HandFrame-Studio/releases). Close the application before running a new installer.
+The application combines a Python backend with an HTML, CSS and JavaScript dashboard hosted through pywebview. MediaPipe provides hand landmarks; OpenCV handles camera frames and image processing. Other components include NumPy, Pillow, PyAutoGUI, pynput and sounddevice.
 
-To change the installation folder, uninstall the current copy first. To remove the application, use **Windows Settings → Apps → HandFrame Studio → Uninstall**, or the Start menu uninstall shortcut.
+For architecture, libraries and implementation details, see [Technical Documentation](README_TECHNICAL.md).
 
-Saved drawings, audio exports, preferences and the shared WebView2 Runtime are kept.
+## About This Repository
 
-## Technical overview
-
-HandFrame Studio combines a local HTML/CSS/JavaScript dashboard with Python processing engines through pywebview. MediaPipe provides hand landmarks; gesture rules and temporal filtering drive the tools. OpenCV handles camera frames, Pillow renders drawings, and NumPy/sounddevice generate and play audio.
-
-See [README_TECHNICAL.md](README_TECHNICAL.md) for the architecture, gesture methods, dependency versions and packaging approach. No programming setup is needed to install or use the application.
+This repository provides the Windows installer, usage documentation and demonstration media. Application source code is not included here.
 
 ## Developer
 
-**Pooya Haji Sadeghi** — [GitHub](https://github.com/pooyaHajiSadeghi)
+**Pooya Haji Sadeghi**  
+[GitHub Profile](https://github.com/pooyaHajiSadeghi)
