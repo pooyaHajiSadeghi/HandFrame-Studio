@@ -14,7 +14,9 @@ A Windows desktop application for hand-controlled photo puzzles, mouse control, 
 
 Download the **.exe installer** using the link above or from the release page's **Assets** section. GitHub's **Code → Download ZIP** and automatically generated **Source code** archives are not the Windows installer.
 
-This repository provides the application download and user documentation.
+This repository provides the Windows installer and documentation. Project source code is not included.
+
+**Documentation:** [User guide](README.md) · [Architecture, algorithms and libraries](README_TECHNICAL.md)
 
 ## Install and launch
 
@@ -82,6 +84,20 @@ After installation, open HandFrame Studio from the desktop shortcut, if selected
 
 Each recording can be up to **five minutes** long. Save drawings and recordings before leaving the active tool.
 
+## Keyboard shortcuts
+
+Shortcuts apply while the relevant tool is active and the application has focus, unless noted otherwise.
+
+| Key | Action |
+| --- | --- |
+| **F8** | Enable/disable mouse control while Mouse Control is active; also works outside the application window. |
+| **Space** | Pause/resume Puzzle, Drawing or Music. |
+| **Esc** | Return to the home page. |
+| **C** | Start a new puzzle. |
+| **Ctrl+S** | Save the drawing. |
+| **Ctrl+Z** | Undo a drawing action. |
+| **1–8** | Play piano notes in Music. |
+| **A / S / D / F** | Play drum pads in Music. |
 
 ## System requirements
 
@@ -91,7 +107,22 @@ Each recording can be up to **five minutes** long. Save drawings and recordings 
 - Microsoft Edge WebView2 Runtime for the dashboard.
 - Internet access if Setup needs to install WebView2.
 
+## Troubleshooting
 
+| Problem | What to try |
+| --- | --- |
+| Camera unavailable or no picture | Close other camera apps, check Windows camera permissions and select the correct camera index in Settings. |
+| Hand tracking is unstable | Improve lighting, keep your hands fully visible and avoid a busy background. |
+| No sound | Check Windows volume and choose the correct audio output device in Settings. |
+| WebView2 installation fails | Check your internet connection, or install the [Evergreen Runtime from Microsoft](https://developer.microsoft.com/microsoft-edge/webview2/) and rerun Setup. |
+| Unexpected mouse actions | Press **F8** to disable gesture-based mouse control. |
+| Setup asks you to close HandFrame Studio | Exit the running application, then retry installation. |
+
+Application logs are stored at:
+
+```text
+%LOCALAPPDATA%\HandFrame\logs\handframe.log
+```
 
 For help, [open an issue](https://github.com/pooyaHajiSadeghi/HandFrame-Studio/issues) with your Windows version, the affected tool and the error message. Review logs before sharing them and remove any personal information.
 
@@ -102,6 +133,12 @@ Download future versions from the [Releases page](https://github.com/pooyaHajiSa
 To change the installation folder, uninstall the current copy first. To remove the application, use **Windows Settings → Apps → HandFrame Studio → Uninstall**, or the Start menu uninstall shortcut.
 
 Saved drawings, audio exports, preferences and the shared WebView2 Runtime are kept.
+
+## Technical overview
+
+HandFrame Studio combines a local HTML/CSS/JavaScript dashboard with Python processing engines through pywebview. MediaPipe provides hand landmarks; gesture rules and temporal filtering drive the tools. OpenCV handles camera frames, Pillow renders drawings, and NumPy/sounddevice generate and play audio.
+
+See [README_TECHNICAL.md](README_TECHNICAL.md) for the architecture, gesture methods, dependency versions and packaging approach. No programming setup is needed to install or use the application.
 
 ## Developer
 
