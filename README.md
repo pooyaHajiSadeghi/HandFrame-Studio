@@ -91,16 +91,6 @@ Each recording can be up to **five minutes** long. Save drawings and recordings 
 - Microsoft Edge WebView2 Runtime for the dashboard.
 - Internet access if Setup needs to install WebView2.
 
-## Troubleshooting
-
-| Problem | What to try |
-| --- | --- |
-| Camera unavailable or no picture | Close other camera apps, check Windows camera permissions and select the correct camera index in Settings. |
-| Hand tracking is unstable | Improve lighting, keep your hands fully visible and avoid a busy background. |
-| No sound | Check Windows volume and choose the correct audio output device in Settings. |
-| WebView2 installation fails | Check your internet connection, or install the [Evergreen Runtime from Microsoft](https://developer.microsoft.com/microsoft-edge/webview2/) and rerun Setup. |
-| Unexpected mouse actions | Press **F8** to disable gesture-based mouse control. |
-| Setup asks you to close HandFrame Studio | Exit the running application, then retry installation. |
 
 Application logs are stored at:
 
