@@ -10,10 +10,6 @@ HandFrame Studio is a Windows desktop application that turns your webcam into a 
 
 Open the link above to view the demo on GitHub. If playback is unavailable on the file page, download the MP4 and open it locally.
 
-## Download for Windows
-
-[**Download HandFrame Studio Setup v1.0.0 (.exe)**](https://github.com/pooyaHajiSadeghi/HandFrame-Studio/releases/download/v1.0.0/HandFrameStudio_Setup_1.0.0.exe)
-
 [Browse releases](https://github.com/pooyaHajiSadeghi/HandFrame-Studio/releases)
 
 Use the installer from the release assets to install the application. The repository ZIP is not the Windows installer.
